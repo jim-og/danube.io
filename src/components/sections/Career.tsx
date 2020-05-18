@@ -1,13 +1,17 @@
 import React, { Fragment } from 'react';
+import SectionItem from './SectionItem';
 
 const Career = () => {
   return (
     <Fragment>
       <h2>Career</h2>
-      <h3>
-        <a href="/">SBG Sports Software</a>
-      </h3>
-      <p>Software Engineer.</p>
+      <SectionItem
+        {...{
+          header: 'SBG Sports Software',
+          link: '/',
+          paragraph: 'Software Engineer.',
+        }}
+      />
     </Fragment>
   );
 };
