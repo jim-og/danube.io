@@ -11,7 +11,7 @@ const Projects = () => {
           link: '/',
           paragraph:
             'Frontend for a vehicle leasing web application using React.',
-          badges: ['React'],
+          badges: ['React', 'JavaScript'],
         }}
       />
       <SectionItem
@@ -21,6 +21,17 @@ const Projects = () => {
           paragraph:
             'Backend API for a vehicle leasing web application using Express and NodeJS.',
           badges: ['Express', 'NodeJS'],
+        }}
+      />
+      <SectionItem
+        {...{
+          header:
+            '‌Automatic Classification of Formula One On-board Video Footage',
+          link:
+            'http://www.imperial.ac.uk/computing/prospective-students/distinguished-projects/pg-prizes/archive/',
+          paragraph:
+            'Backend API for a vehicle leasing web application using Express and NodeJS.',
+          badges: ['Python', 'Tensorflow', 'OpenCV'],
         }}
       />
     </Fragment>
