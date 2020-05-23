@@ -20,7 +20,7 @@ const Career = () => {
           header: 'Machine Learning Graduate',
           subHeader: 'Mercedes-AMG Petronas Formula One Team',
           link: '/',
-          dates: 'Oct 2017 - Nov 2018',
+          dates: 'Oct 2017 - Nov 2017',
           paragraph: 'todo',
           badges: ['Python', 'Tensorflow', 'OpenCV'],
         }}

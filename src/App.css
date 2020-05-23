@@ -35,7 +35,7 @@ body {
   margin: 0;
   padding: 1.5rem;
   font: var(--body-font-weight) 1rem/1.5 -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    'Segoe UI', Roboto, 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
   color: var(--body-color);
   background-color: var(--body-bg);
 }
@@ -116,4 +116,8 @@ hr {
 }
 .footer {
   color: var(--body-color);
+}
+
+.badge-primary {
+  background-color: #1e9ff0;
 }

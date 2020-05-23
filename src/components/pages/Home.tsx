@@ -1,26 +1,22 @@
 import React, { Fragment } from 'react';
+import Header from '../sections/Header';
 import Projects from '../sections/Projects';
 import Career from '../sections/Career';
+import Education from '../sections/Education';
 
 const Home = () => {
   return (
     <Fragment>
-      <div className="masthead">
-        <h1>
-          <a href="/">Jim Gartland</a>
-        </h1>
-        <p className="lead">
-          Software Engineer @<a href="https://sbgsportssoftware.com/">SBG</a>
-        </p>
-
-        <div className="links">Links here</div>
+      <div className="container">
+        <Header />
+        <hr />
+        <Projects />
+        <hr />
+        <Career />
+        <hr />
+        <Education />
+        <hr />
       </div>
-
-      <hr />
-      <Projects />
-      <hr />
-      <Career />
-      <hr />
     </Fragment>
   );
 };

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 export interface SectionItemProps {
-  header?: string;
+  header: string;
   subHeader?: string;
   link?: string;
   dates?: string;
@@ -21,24 +21,35 @@ const SectionItem = ({
 }: SectionItemProps) => {
   return (
     <Fragment>
-      <span className="d-flex justify-content-between align-items-center">
-        <span>
-          <h3>
-            <a href={link}>{header}</a>
-          </h3>
-          <h3>{subHeader}</h3>
+      <div className="mb-4">
+        <span className="d-flex justify-content-between align-items-center">
+          <span>
+            <h3 className="text-white">
+              <a href={link}>{header}</a>
+            </h3>
+            <h3>{subHeader}</h3>
+          </span>
+          <small>{dates}</small>
         </span>
-        <small>{dates}</small>
-      </span>
-      {badges &&
-        badges.map((badge) => (
-          <span className="badge badge-primary mr-1">{badge}</span>
-        ))}
-      <p>{paragraph}</p>
-      {awards &&
-        awards.map((award) => (
-          <span className="badge badge-primary mr-1">{award}</span>
-        ))}
+        {badges &&
+          badges.map((badge) => (
+            <span key={badge} className="badge badge-primary mr-1">
+              {badge}
+            </span>
+          ))}
+        <p className="text-white-50 mb-1">{paragraph}</p>
+        {awards &&
+          awards.map((award) => (
+            <div key={award}>
+              <span className="text-white-50">
+                <small>
+                  <i className="fas fa-trophy mr-2"></i>
+                  {award}
+                </small>
+              </span>
+            </div>
+          ))}
+      </div>
     </Fragment>
   );
 };
