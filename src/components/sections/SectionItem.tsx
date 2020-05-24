@@ -33,11 +33,11 @@ const SectionItem = ({
         </span>
         {badges &&
           badges.map((badge) => (
-            <span key={badge} className="badge badge-primary mr-1">
+            <span key={badge} className="badge badge-primary mr-2">
               {badge}
             </span>
           ))}
-        <p className="text-white-50 mb-1">{paragraph}</p>
+        <p className="text-white-50 text-justify mb-2 mt-2">{paragraph}</p>
         {awards &&
           awards.map((award) => (
             <div key={award}>

@@ -15,10 +15,10 @@ const Header = () => {
           <a href="mailto:me@danube.io" title="Get in contact">
             <i className="far fa-envelope"></i>
           </a>
-          <a href="/" title="Follow me on GitHub">
+          <a href="https://github.com/jim-og" title="Follow me on GitHub">
             <i className="fab fa-github"></i>
           </a>
-          <a href="/" title="Follow me on Twitter">
+          <a href="https://twitter.com/Jimog_" title="Follow me on Twitter">
             <i className="fab fa-twitter"></i>
           </a>
           <a
