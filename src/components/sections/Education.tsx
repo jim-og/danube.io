@@ -10,7 +10,9 @@ const Education = () => {
           header: 'Imperial College London',
           subHeader: 'Master of Science (MSc), Computing Science',
           dates: '2016 - 2017',
-          paragraph: `Intensive 12-month course providing a strong foundation in Object Oriented Programming with a wide range of modules including Algorithms, Artificial Intelligence, Machine Learning, Concurrency and Networks & Distributed Systems.`,
+          paragraph: `Intensive 12-month course providing a strong foundation in Object Oriented Programming 
+          with a wide range of modules including Algorithms, Artificial Intelligence, Machine Learning,
+          Concurrency and Networks & Distributed Systems.`,
           badges: ['C++', 'Python', 'Swift'],
           awards: [
             'Distinguised Project - Automatic Classification of Formula One On-board Video Footage',
@@ -23,7 +25,8 @@ const Education = () => {
           header: 'University of Durham',
           subHeader: 'MEng General Engineering, First-class honours',
           dates: '2010 - 2014',
-          paragraph: `Multi-disciplined undergraduate degree giving a firm grounding in mechanical, electrical, electronic and civil engineering.`,
+          paragraph: `Multi-disciplined undergraduate degree giving a firm grounding in mechanical, electrical, 
+          electronic and civil engineering.`,
           badges: ['C', 'MATLAB'],
           awards: [
             'RAEng design prize for the best Durham University 3rd Year team design project',
