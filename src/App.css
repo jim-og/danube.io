@@ -16,6 +16,7 @@
     --link-color: #dee2e6;
     --link-color-hover: #09d3ac;
     --heading-color: #fff;
+    --heading-color-hover: #09d3ac;
     --hr-color: rgba(255, 255, 255, 0.1);
   }
 }
@@ -52,7 +53,7 @@ a {
 }
 a:hover {
   color: var(--link-color-hover);
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-skip-ink: auto;
 }
 h1,
