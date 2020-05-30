@@ -18,6 +18,12 @@ const Header = () => {
           <a href="https://github.com/jim-og" title="Follow me on GitHub">
             <i className="fab fa-github"></i>
           </a>
+          <a
+            href="https://www.linkedin.com/in/jimgartland/"
+            title="Follow me on Linkedin"
+          >
+            <i className="fab fa-linkedin-in"></i>
+          </a>
           <a href="https://twitter.com/Jimog_" title="Follow me on Twitter">
             <i className="fab fa-twitter"></i>
           </a>
