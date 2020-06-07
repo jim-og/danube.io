@@ -32,8 +32,8 @@ const SectionItem = ({
           <span>
             <h3 className="text-white">{header}</h3>
             <h3>{subHeader}</h3>
+            <small>{dates}</small>
           </span>
-          <small>{dates}</small>
         </span>
         <span>
           {badges &&
