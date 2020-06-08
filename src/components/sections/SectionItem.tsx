@@ -52,7 +52,7 @@ const SectionItem = ({
             ))}
         </span>
 
-        <p className="text-white-50 text-justify mb-2 mt-2">{paragraph}</p>
+        <p className="text-white-50 mb-2 mt-2">{paragraph}</p>
         {awards &&
           awards.map((award, index) => (
             <div key={index}>
