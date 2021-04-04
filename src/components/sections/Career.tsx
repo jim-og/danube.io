@@ -7,48 +7,41 @@ const Career = () => {
       <h2>Experience</h2>
       <SectionItem
         {...{
-          header: 'Software Engineer',
-          subHeader: 'SBG Sports Software',
+          header: 'SBG Sports Software',
+          subHeader: 'Software Engineer',
           dates: 'Nov 2017 - Present',
-          badges: ['C++'],
+          paragraph: `Full stack developer for RaceWatch, an award winning fully integrated data analysis and visualisation software for elite motorsport strategy.`,
+          badges: [
+            'C++11',
+            'React',
+            'PostgreSQL',
+            'NodeJS',
+            'TypeScript',
+            'AWS',
+            'GoogleTest',
+            'OpenCV',
+          ],
+          awards: [
+            'Yahoo! Sports Technology Awards 2019 - Best Technology for Elite Performance',
+          ],
         }}
       />
       <SectionItem
         {...{
-          header: 'Machine Learning Graduate',
-          subHeader: 'Mercedes-AMG Petronas Formula One Team',
+          header: 'Mercedes-AMG Petronas Formula One Team',
+          subHeader: 'Machine Learning Graduate Placement',
           dates: 'Oct 2017 - Nov 2017',
-          badges: ['Python', 'Tensorflow', 'OpenCV'],
+          paragraph: `Applied the latest in deep learning video classification techniques to automatically annotate on-board video with descriptors of the content being shown such as camera angle, team, and driver.`,
+          badges: ['Python', 'OpenCV', 'FFMEG', 'TensorFlow'],
         }}
       />
       <SectionItem
         {...{
-          header: 'MSc Computing Science',
-          subHeader: 'Imperial College London',
-          dates: 'Oct 2016 - Sep 2017',
-          paragraph: `Distinguished individual project. Titled 'Automatic Classification of Formula One On-board Video Footage' 
-          this project, in association with Mercedes AMG Petronas Formula One Team, applied the latest in deep learning video
-          classification techniques to automatically annotate video streams with descriptors of the content being shown.`,
-          badges: ['C++', 'Python', 'Swift', 'Tensorflow', 'OpenCV'],
-        }}
-      />
-      <SectionItem
-        {...{
-          header: 'Trent XWB Development Engineer',
-          subHeader: 'Rolls-Royce',
-          dates: 'Apr 2016 - Sep 2016',
-          paragraph: `The Development function is responsible for creating engine development and compliance programmes, 
-          delivered to cost and timescales, which demonstrate the performance of a new engine and that certification
-          requirements are met. `,
-        }}
-      />
-      <SectionItem
-        {...{
-          header: 'Civil Large Engines Graduate Trainee',
-          subHeader: 'Rolls-Royce',
-          dates: 'Sep 2014 - Apr 2016',
-          paragraph:
-            '18-month graduate scheme encompassing 4 separate placements throughout the Civil Large Engines business.',
+          header: 'Rolls-Royce plc',
+          subHeader: 'Trent XWB Development Engineer',
+          dates: 'Sep 2014 - Sep 2016',
+          badges: ['MATLAB'],
+          paragraph: `Initial role as a Graduate Trainee encompassed 4 separate placements throughout the Civil Large Engines business, followed by a substantive role as a Development Engineer on the Trent XWB project. `,
         }}
       />
     </Fragment>

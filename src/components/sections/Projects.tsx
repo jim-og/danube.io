@@ -48,7 +48,7 @@ const Projects = () => {
       <SectionItem
         {...{
           header: 'danube.io',
-          paragraph: 'My personal website.',
+          paragraph: 'Personal website.',
           badges: ['React', 'TypeScript', 'Bootstrap'],
           links: [
             {

@@ -14,9 +14,9 @@
     --body-color: #6c757d;
     --body-font-weight: 300;
     --link-color: #dee2e6;
-    --link-color-hover: #09d3ac;
+    --link-color-hover: #0c75b7;
     --heading-color: #fff;
-    --heading-color-hover: #09d3ac;
+    --heading-color-hover: #0c75b7;
     --hr-color: rgba(255, 255, 255, 0.1);
   }
 }
@@ -120,5 +120,5 @@ hr {
 }
 
 .badge-primary {
-  background-color: #1e9ff0;
+  background-color: #0c75b7;
 }

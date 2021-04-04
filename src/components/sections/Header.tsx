@@ -12,7 +12,7 @@ const Header = () => {
         </p>
 
         <div className="links">
-          <a href="mailto:me@danube.io" title="Get in contact">
+          <a href="mailto:cv@danube.io" title="Get in contact">
             <i className="far fa-envelope"></i>
           </a>
           <a href="https://github.com/jim-og" title="Follow me on GitHub">
@@ -23,9 +23,6 @@ const Header = () => {
             title="Follow me on Linkedin"
           >
             <i className="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://twitter.com/Jimog_" title="Follow me on Twitter">
-            <i className="fab fa-twitter"></i>
           </a>
           <a
             href="https://www.strava.com/athletes/jim_gartland"

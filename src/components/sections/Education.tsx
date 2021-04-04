@@ -15,7 +15,7 @@ const Education = () => {
           Concurrency and Networks & Distributed Systems.`,
           badges: ['C++', 'Python', 'Swift'],
           awards: [
-            'Distinguised Project - Automatic Classification of Formula One On-board Video Footage',
+            'Distinguished Project - Automatic Classification of Formula One On-board Video Footage',
             'MSc Computing / MSc Specialism Group Project Prize',
           ],
         }}

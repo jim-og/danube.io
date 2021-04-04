@@ -10,11 +10,11 @@ const Home = () => {
       <div className="container">
         <Header />
         <hr />
-        <Projects />
-        <hr />
         <Career />
         <hr />
         <Education />
+        <hr />
+        <Projects />
         <hr />
       </div>
     </Fragment>
