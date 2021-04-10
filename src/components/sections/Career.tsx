@@ -32,7 +32,7 @@ const Career = () => {
           subHeader: 'Machine Learning Graduate Placement',
           dates: 'Oct 2017 - Nov 2017',
           paragraph: `Applied the latest in deep learning video classification techniques to automatically annotate on-board video with descriptors of the content being shown such as camera angle, team, and driver.`,
-          badges: ['Python', 'OpenCV', 'FFMEG', 'TensorFlow'],
+          badges: ['Python', 'OpenCV', 'FFMPEG', 'TensorFlow'],
         }}
       />
       <SectionItem
