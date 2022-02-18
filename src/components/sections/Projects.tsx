@@ -7,38 +7,15 @@ const Projects = () => {
       <h2>Projects</h2>
       <SectionItem
         {...{
-          header: 'Vehicle Leasing Website',
-          paragraph: `Frontend for a vehicle leasing web application using React, 
-            React Hooks for state management, and Materialize for styling.`,
-          badges: ['React', 'JavaScript', 'Materialize'],
+          header: 'http-log-monitor',
+          paragraph: `A Go HTTP log monitoring console program. It is able to read CSV-encoded 
+            HTTP access logs, display the most popular endpoint sections over a specified time 
+            period, and alert when traffic passes a certain threshold across a given time 
+            period.`,
+          badges: ['Go'],
           links: [
             {
-              link: '/',
-              icon: 'fas fa-link',
-              title: 'View live',
-            },
-            {
-              link: '/',
-              icon: 'fab fa-github',
-              title: 'View on GitHub',
-            },
-          ],
-        }}
-      />
-      <SectionItem
-        {...{
-          header: 'Vehicle Leasing API',
-          paragraph:
-            'Backend API for a vehicle leasing web application using Express and NodeJS.',
-          badges: ['Express', 'NodeJS'],
-          links: [
-            {
-              link: '/',
-              icon: 'fas fa-link',
-              title: 'View live',
-            },
-            {
-              link: '/',
+              link: 'https://github.com/jim-og/http-log-monitor',
               icon: 'fab fa-github',
               title: 'View on GitHub',
             },
@@ -51,6 +28,11 @@ const Projects = () => {
           paragraph: 'Personal website.',
           badges: ['React', 'TypeScript', 'Bootstrap'],
           links: [
+            {
+              link: '/',
+              icon: 'fas fa-link',
+              title: 'View live',
+            },
             {
               link: 'https://github.com/jim-og/danube.io',
               icon: 'fab fa-github',

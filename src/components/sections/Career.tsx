@@ -7,22 +7,20 @@ const Career = () => {
       <h2>Experience</h2>
       <SectionItem
         {...{
-          header: 'SBG Sports Software',
-          subHeader: 'Software Engineer',
-          dates: 'Nov 2017 - Present',
-          paragraph: `Full stack developer for RaceWatch, an award winning fully integrated data analysis and visualisation software for elite motorsport strategy.`,
+          header: 'Catapult',
+          subHeader: 'Senior Software Engineer',
+          dates: 'Nov 2017 - Dec 2021',
+          paragraph: `Full stack C++ developer building data analysis and visualisation 
+            software for elite motorsport strategy. This is a domain which requires high 
+            throughtput, low latency solutions to process large amounts of data efficiently 
+            to inform split-second decisions.`,
           badges: [
-            'C++11',
+            'C++',
+            'Go',
             'React',
             'PostgreSQL',
-            'NodeJS',
             'TypeScript',
-            'AWS',
-            'GoogleTest',
             'OpenCV',
-          ],
-          awards: [
-            'Yahoo! Sports Technology Awards 2019 - Best Technology for Elite Performance',
           ],
         }}
       />

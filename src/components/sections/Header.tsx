@@ -8,7 +8,7 @@ const Header = () => {
           <a href="/">Jim Gartland</a>
         </h1>
         <p className="lead">
-          Software Engineer <a href="https://sbgsportssoftware.com/">@SBG</a>
+          Software Engineer
         </p>
 
         <div className="links">
