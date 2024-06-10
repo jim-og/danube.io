@@ -7,6 +7,21 @@ const Career = () => {
       <h2>Experience</h2>
       <SectionItem
         {...{
+          header: 'Microsoft',
+          subHeader: 'Software Engineer',
+          dates: 'Apr 2022 - Present',
+          paragraph: `TODO`,
+          badges: [
+            'Rust',
+            'C++',
+            'Python',
+            'Kubernetes',
+            'Azure',
+          ],
+        }}
+      />
+      <SectionItem
+        {...{
           header: 'Catapult',
           subHeader: 'Senior Software Engineer',
           dates: 'Nov 2017 - Dec 2021',
