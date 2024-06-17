@@ -7,10 +7,12 @@ const Career = () => {
       <h2>Experience</h2>
       <SectionItem
         {...{
-          header: 'Microsoft',
-          subHeader: 'Software Engineer',
+          header: 'Microsoft, Azure for Operators (AFO)',
+          subHeader: 'Software Engineer II',
           dates: 'Apr 2022 - Present',
-          paragraph: `TODO`,
+          paragraph: `Developing highly-scalable cloud native solutions for the
+            telecommunications industry. This is a domain which requires carrier-grade 
+            performance, observability, and monitoring of large scale systems`,
           badges: [
             'Rust',
             'C++',
