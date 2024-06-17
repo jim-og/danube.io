@@ -11,8 +11,9 @@ const Career = () => {
           subHeader: 'Software Engineer II',
           dates: 'Apr 2022 - Present',
           paragraph: `Developing highly-scalable cloud native solutions for the
-            telecommunications industry. This is a domain which requires carrier-grade 
-            performance, observability, and monitoring of large scale systems`,
+            telecommunications industry. Designing and implementing solutions with
+            carrier-grade performance, observability, and the ability to monitor
+            large scale systems.`,
           badges: [
             'Rust',
             'C++',
