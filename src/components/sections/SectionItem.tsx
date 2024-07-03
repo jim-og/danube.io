@@ -30,7 +30,7 @@ const SectionItem = ({
       <div className="mb-5">
         <span className="d-flex justify-content-between align-items-center">
           <span>
-            <h3 className="text-white">{header}</h3>
+            <h3 className="text-mid">{header}</h3>
             <h3>{subHeader}</h3>
             <small>{dates}</small>
           </span>
@@ -52,11 +52,11 @@ const SectionItem = ({
             ))}
         </span>
 
-        <p className="text-white-50 mb-2 mt-2">{paragraph}</p>
+        <p className="text-mid mb-2 mt-2">{paragraph}</p>
         {awards &&
           awards.map((award, index) => (
             <div key={index}>
-              <span className="text-white-50">
+              <span className="text-mid">
                 <small>
                   <i className="fas fa-trophy mr-2"></i>
                   {award}
