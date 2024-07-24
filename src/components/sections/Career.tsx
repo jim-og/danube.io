@@ -30,7 +30,7 @@ const Career = () => {
           dates: 'Nov 2017 - Dec 2021',
           paragraph: `Full stack C++ developer building data analysis and visualisation 
             software for elite motorsport strategy. This is a domain which requires high 
-            throughtput, low latency solutions to process large amounts of data efficiently 
+            throughput, low latency solutions to process large amounts of data efficiently 
             to inform split-second decisions.`,
           badges: [
             'C++',
