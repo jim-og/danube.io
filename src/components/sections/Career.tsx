@@ -10,10 +10,10 @@ const Career = () => {
           header: 'Microsoft, Azure for Operators (AFO)',
           subHeader: 'Software Engineer II',
           dates: 'Apr 2022 - Present',
-          paragraph: `Developing highly-scalable cloud native solutions for the
-            telecommunications industry. Designing and implementing solutions with
-            carrier-grade performance, observability, and the ability to monitor
-            large scale systems.`,
+          paragraph: `Developing highly-scalable cloud native C++ and Rust platforms 
+            for the telecommunications industry. Designing and implementing secure solutions 
+            with carrier-grade performance, high-reliability, and observability across 
+            large-scale deployments.`,
           badges: [
             'Rust',
             'C++',
@@ -34,7 +34,7 @@ const Career = () => {
             to inform split-second decisions.`,
           badges: [
             'C++',
-            'Go',
+            'Python',
             'React',
             'PostgreSQL',
             'TypeScript',
