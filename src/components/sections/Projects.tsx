@@ -7,6 +7,20 @@ const Projects = () => {
       <h2>Projects</h2>
       <SectionItem
         {...{
+          header: 'payments-engine',
+          paragraph: `A toy payments engine, written in Rust.`,
+          badges: ['Rust'],
+          links: [
+            {
+              link: 'https://github.com/jim-og/payments-engine',
+              icon: 'fab fa-github',
+              title: 'View on GitHub',
+            },
+          ],
+        }}
+      />
+      <SectionItem
+        {...{
           header: 'http-log-monitor',
           paragraph: `A Go HTTP log monitoring console program. It is able to read CSV-encoded 
             HTTP access logs, display the most popular endpoint sections over a specified time 

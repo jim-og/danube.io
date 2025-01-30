@@ -9,7 +9,7 @@ const Career = () => {
         {...{
           header: 'Microsoft, Azure for Operators (AFO)',
           subHeader: 'Software Engineer II',
-          dates: 'Apr 2022 - Present',
+          dates: 'Apr 2022 - Aug 2024',
           paragraph: `Developing highly-scalable cloud native C++ and Rust platforms 
             for the telecommunications industry. Designing and implementing secure solutions 
             with carrier-grade performance, high-reliability, and observability across 
@@ -19,6 +19,7 @@ const Career = () => {
             'C++',
             'Python',
             'Kubernetes',
+            'Docker',
             'Azure',
           ],
         }}
