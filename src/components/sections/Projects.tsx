@@ -7,6 +7,20 @@ const Projects = () => {
       <h2>Projects</h2>
       <SectionItem
         {...{
+          header: 'web-crawler-rs',
+          paragraph: `A web crawler designed to crawl a single domain.`,
+          badges: ['Rust'],
+          links: [
+            {
+              link: 'https://github.com/jim-og/web-crawler-rs',
+              icon: 'fab fa-github',
+              title: 'View on GitHub',
+            },
+          ],
+        }}
+      />
+      <SectionItem
+        {...{
           header: 'payments-engine',
           paragraph: `A toy payments engine, written in Rust.`,
           badges: ['Rust'],
