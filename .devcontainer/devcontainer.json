@@ -1,0 +1,25 @@
+{
+  "name": "React Dev Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  // Add useful extensions for React development
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dsznajder.es7-react-js-snippets",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss" 
+      ]
+    }
+  },
+  // Use 'forwardPorts' to make the dev server accessible
+  "forwardPorts": [3000], 
+  
+  // Ensure the 'node' user has rights to the workspace
+  "remoteUser": "node",
+  "mounts": [
+    "source=react-history,target=/commandhistory,type=volume"
+  ]
+}
