@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "@testing-library/user-event": "^14.6.1",
     "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
@@ -16,15 +15,13 @@
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.2.5",
     "react-router-dom": "^7.14.1",
-    "react-scripts": "^5.0.1",
     "typescript": "6.0.2",
     "yargs-parser": "^22.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.8"
   }
 }
