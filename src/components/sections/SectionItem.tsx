@@ -1,5 +1,3 @@
-import React, { Fragment } from 'react';
-
 export interface LinkProps {
   icon: string;
   link: string;
@@ -26,46 +24,44 @@ const SectionItem = ({
   links,
 }: SectionItemProps) => {
   return (
-    <Fragment>
-      <div className="mb-5">
-        <span className="d-flex justify-content-between align-items-center">
-          <span>
-            <h3 className="text-mid">{header}</h3>
-            <h3>{subHeader}</h3>
-            <small>{dates}</small>
-          </span>
-        </span>
-        <span>
-          {badges &&
-            badges.map((badge, index) => (
-              <span key={index} className="badge badge-primary mr-2">
-                {badge}
-              </span>
-            ))}
-          {links &&
-            links.map((value, index) => (
-              <span key={index} className="mr-2">
-                <a href={value.link} title={value.title}>
-                  <i className={value.icon}></i>
-                </a>
-              </span>
-            ))}
-        </span>
-
-        <p className="text-mid mb-2 mt-2">{paragraph}</p>
-        {awards &&
-          awards.map((award, index) => (
-            <div key={index}>
-              <span className="text-mid">
-                <small>
-                  <i className="fas fa-trophy mr-2"></i>
-                  {award}
-                </small>
-              </span>
-            </div>
-          ))}
+    <article className="section-item">
+      <div className="section-item__heading">
+        <div>
+          <h3 className="section-item__title">{header}</h3>
+          {subHeader && <p className="section-item__role">{subHeader}</p>}
+        </div>
+        {dates && <p className="section-item__dates">{dates}</p>}
       </div>
-    </Fragment>
+
+      {(badges?.length || links?.length) && (
+        <div className="section-item__meta">
+          {badges?.map((badge) => (
+            <span key={badge} className="badge">
+              {badge}
+            </span>
+          ))}
+          {links?.map((value) => (
+            <a
+              key={value.link}
+              href={value.link}
+              aria-label={value.title}
+              className="section-item__link"
+            >
+              <i className={value.icon} aria-hidden="true"></i>
+            </a>
+          ))}
+        </div>
+      )}
+
+      {paragraph && <p className="section-item__paragraph">{paragraph}</p>}
+
+      {awards?.map((award) => (
+        <p key={award} className="section-item__award">
+          <i className="fas fa-trophy" aria-hidden="true"></i>
+          <span>{award}</span>
+        </p>
+      ))}
+    </article>
   );
 };
 

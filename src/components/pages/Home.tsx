@@ -1,23 +1,21 @@
-import React, { Fragment } from 'react';
 import Header from '../sections/Header';
-import Projects from '../sections/Projects';
 import Career from '../sections/Career';
 import Education from '../sections/Education';
+import Projects from '../sections/Projects';
 
 const Home = () => {
   return (
-    <Fragment>
-      <div className="container">
-        <Header />
-        <hr />
-        <Career />
-        <hr />
-        <Education />
-        <hr />
-        <Projects />
-        <hr />
-      </div>
-    </Fragment>
+    <main className="page">
+      <Header />
+      <Career />
+      <Education />
+      <Projects />
+      <footer className="footer">
+        <small>
+          <a href="https://github.com/jim-og/danube.io">View source on GitHub</a>
+        </small>
+      </footer>
+    </main>
   );
 };
 
