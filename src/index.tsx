@@ -1,12 +1,11 @@
+import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import React from "react";
-import "./index.css";
-import App from "./App";
+import App from './App';
 
 const container = document.getElementById('root');
-const root = createRoot(container!); // The '!' tells TS the element exists
-root.render(
-  <React.StrictMode>
+if (!container) throw new Error('Root container not found');
+createRoot(container).render(
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>,
 );

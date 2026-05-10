@@ -1,38 +1,40 @@
-import React, { Fragment } from 'react';
+interface SocialLink {
+  href: string;
+  label: string;
+  icon: string;
+}
+
+const socialLinks: SocialLink[] = [
+  { href: 'mailto:cv@danube.io', label: 'Email Jim', icon: 'far fa-envelope' },
+  { href: 'https://github.com/jim-og', label: 'GitHub profile', icon: 'fab fa-github' },
+  {
+    href: 'https://www.linkedin.com/in/jimgartland/',
+    label: 'LinkedIn profile',
+    icon: 'fab fa-linkedin-in',
+  },
+  {
+    href: 'https://www.strava.com/athletes/jim_gartland',
+    label: 'Strava profile',
+    icon: 'fab fa-strava',
+  },
+];
 
 const Header = () => {
   return (
-    <Fragment>
-      <div className="masthead">
-        <h1>
-          <a href="/">Jim Gartland</a>
-        </h1>
-        <p className="lead">
-          Software Engineer
-        </p>
+    <header className="masthead">
+      <h1>
+        <a href="/">Jim Gartland</a>
+      </h1>
+      <p className="lead">Software Engineer</p>
 
-        <div className="links">
-          <a href="mailto:cv@danube.io" title="Get in contact">
-            <i className="far fa-envelope"></i>
+      <nav aria-label="Social links" className="links">
+        {socialLinks.map((link) => (
+          <a key={link.href} href={link.href} aria-label={link.label}>
+            <i className={link.icon} aria-hidden="true"></i>
           </a>
-          <a href="https://github.com/jim-og" title="Follow me on GitHub">
-            <i className="fab fa-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/jimgartland/"
-            title="Follow me on Linkedin"
-          >
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-          <a
-            href="https://www.strava.com/athletes/jim_gartland"
-            title="Follow me on Strava"
-          >
-            <i className="fab fa-strava"></i>
-          </a>
-        </div>
-      </div>
-    </Fragment>
+        ))}
+      </nav>
+    </header>
   );
 };
 
